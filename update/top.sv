@@ -9,7 +9,7 @@
 //    u_dma        : uart_dma_handshake   (DMA req/ack)
 // ============================================================
 
-module apb_uart_full
+module top
 #(
     parameter int APB_ADDR_WIDTH = 12,
     parameter int TX_FIFO_DEPTH  = 16,
